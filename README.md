@@ -15,6 +15,7 @@ Q(next) = T ⊕ Q   (Q(next) = Q if T = 0, Q(next) = Q' if T = 1)
 <img width="625" height="50" alt="image" src="https://github.com/user-attachments/assets/65034a51-5642-46ac-940a-f7ee975cea9c" />
 
 ## Design / RTL Program
+```
 // gedit dff_tff.v
  
 module dff (
@@ -46,7 +47,6 @@ module tff (
             Q <= Q;
     end
 endmodule
-```
 ```
 ## Testbench Program
 ```// gedit tb5.v
